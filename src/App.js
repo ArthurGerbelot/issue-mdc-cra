@@ -8,7 +8,7 @@ import './App.scss';
 export default function App() {
   return (
     <div className="App">
-      <div className="surface">
+      <div className="surface mdc-elevation--z5">
         <div>
           <TextField label="Username" />
         </div>

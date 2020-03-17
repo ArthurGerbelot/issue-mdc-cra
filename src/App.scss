@@ -29,6 +29,6 @@
 
 
 // Create homeMade
-.surface-main {
+.surface {
   @include shape.radius($small-component-radius);
 }
