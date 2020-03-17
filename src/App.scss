@@ -1,0 +1,34 @@
+
+// Update Theme
+@use "@material/theme" with (
+  $primary: red
+);
+
+@use '@material/shape';
+
+// Import some
+@import '@material/ripple/mdc-ripple';
+@import '@material/button/mdc-button';
+@import '@material/textfield/mdc-text-field';
+@import '@material/elevation/mdc-elevation';
+
+// @import '~@material/ripple/mdc-ripple';
+// @import '~@material/button/mdc-button';
+// @import '~@material/textfield/mdc-text-field';
+// @import '~@material/elevation/mdc-elevation';
+
+// @use '@material/ripple/mdc-ripple';
+// @use '@material/button/mdc-button';
+// @use '@material/textfield/mdc-text-field';
+// @use '@material/elevation/mdc-elevation';
+
+// @use '~@material/ripple/mdc-ripple';
+// @use '~@material/button/mdc-button';
+// @use '~@material/textfield/mdc-text-field';
+// @use '~@material/elevation/mdc-elevation';
+
+
+// Create homeMade
+.surface-main {
+  @include shape.radius($small-component-radius);
+}
